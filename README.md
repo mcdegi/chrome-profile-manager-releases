@@ -4,7 +4,7 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.6-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.6-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.8-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.8-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
@@ -31,3 +31,19 @@ Ab 0.2.5 erscheint die Bestätigung vor der Installation im dunklen App-Dialog m
 Für jede neue Version werden eine EXE, ein ZIP, SHA256-Prüfsummen und signierte Update-Metadaten veröffentlicht. Die App prüft vor der Installation die Signatur, den Kanal, die Version sowie Paket- und EXE-Prüfsummen. Änderungen am Quellcode allein lösen kein Update aus; dafür muss ein neuer vollständiger Release veröffentlicht sein.
 
 Stable ab 0.2.2 und Test ab 0.2.3 können über die bereits eingerichtete Quelle aktualisiert werden. Ältere Versionen ohne Updatequelle einmal durch die passende aktuelle EXE ersetzen. Alte manuell konfigurierte Quellen und Schlüssel werden ab 0.2.3 ignoriert; die Benutzervorgaben zur automatischen Prüfung bleiben erhalten.
+## Weltdaten und Spieler-Neustarts
+
+Ab 0.2.8 werden die öffentlichen Weltdaten für **de258** stündlich auf einem
+kostenlosen öffentlichen GitHub-Standard-Runner erfasst, auch bei ausgeschaltetem PC.
+Stable und Test laden den signierten Stand beim Start und alle fünf Minuten.
+Unter **Einstellungen → DSHub** stehen der Datenstand und **Daten aktualisieren**.
+Offline bleibt der letzte gültige Stand erhalten.
+
+- [Aktuelle Neustartliste als CSV](https://github.com/mcdegi/chrome-profile-manager-worlddata/releases/latest/download/player-starts.csv)
+- [Datenablage und stündlicher Ablauf](https://github.com/mcdegi/chrome-profile-manager-worlddata)
+
+CSV: `player_id,timestamp`, Unix-Sekunden UTC. Neue aktive Spieler werden beim
+ersten Erfassen aufgenommen, Spieler mit 0 Punkten entfernt und bestätigte
+Neustarts ersetzen die vorherige Zeit. Rohdaten werden 48 Stunden aufbewahrt;
+die aktuelle Liste und ihr Vergleichszustand bleiben dauerhaft erhalten.
+GitHub kann geplante Läufe verzögern oder auslassen.
