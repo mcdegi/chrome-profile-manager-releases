@@ -46,4 +46,4 @@ CSV: `player_id,timestamp`, Unix-Sekunden UTC. Neue aktive Spieler werden beim
 ersten Erfassen aufgenommen, Spieler mit 0 Punkten entfernt und bestätigte
 Neustarts ersetzen die vorherige Zeit. Rohdaten werden 48 Stunden aufbewahrt;
 die aktuelle Liste und ihr Vergleichszustand bleiben dauerhaft erhalten.
-GitHub kann geplante Läufe verzögern oder auslassen.
+GitHub kann geplante Läufe verzögern oder auslassen. Der CDN-Zwischenspeicher kann neue Daten zusätzlich einige Minuten verzögert sichtbar machen.
