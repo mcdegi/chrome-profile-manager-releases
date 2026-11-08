@@ -4,11 +4,20 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.9-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.9-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.10-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.10-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.9: Mindestmoral im Aktionsplaner
+## Neu in 0.2.10: Statusabgleich nach unbestätigten Änderungen
+
+Die Angriffspläne aktualisieren Status und echte Ankunft auch nach einem
+fehlgeschlagenen oder unbestätigten Herkunftstausch, einer Änderung oder Löschung
+weiter automatisch. Es handelt sich ausschließlich um lesende Abrufe: keine
+Schreibwiederholung und kein aus dem Countdown abgeleiteter Versandstatus.
+Weitere Änderungen bleiben bis zum erfolgreichen manuellen Tabellen-Neuabruf
+gesperrt. Ein separater HTTP-500-Speicherfehler wird dadurch nicht behoben.
+
+## Seit 0.2.9: Mindestmoral im Aktionsplaner
 
 Unter **Aktionsplaner → Übersicht → Mindestmoral** lässt sich je Planungsgruppe
 eine Grenze von 0 bis 100 % einstellen; 0 deaktiviert den Filter. Die konservative
