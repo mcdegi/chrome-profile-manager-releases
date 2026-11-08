@@ -4,11 +4,21 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.10-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.10-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.11-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.11-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.10: Statusabgleich nach unbestätigten Änderungen
+## Neu in 0.2.11: Kopier-Icons in der Befehlstabelle
+
+Hinter Start-/Zielkoordinaten sowie geplanter Abschick-/Ankunftszeit stehen kleine
+Kopier-Icons ohne Hintergrund. Sie kopieren den vollständigen angezeigten Wert,
+bei Zeiten mit lokalem Datum, Sekunden und „Uhr“. Fehlende Werte zeigen kein
+Icon. Zeilenauswahl und Sortierung bleiben unverändert; Tabellen-Refresh und
+Zeilen-Recycling aktualisieren auch den Kopierwert. Kurze Hinweise bestätigen
+den Erfolg oder melden eine nicht verfügbare Zwischenablage. Keine API-Aufrufe
+oder automatischen Schreibwiederholungen durch Kopieren.
+
+## Seit 0.2.10: Statusabgleich nach unbestätigten Änderungen
 
 Die Angriffspläne aktualisieren Status und echte Ankunft auch nach einem
 fehlgeschlagenen oder unbestätigten Herkunftstausch, einer Änderung oder Löschung
