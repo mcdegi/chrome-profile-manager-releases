@@ -1,25 +1,27 @@
-# Chrome Profile Manager – Stable-Downloads
+# Chrome Profile Manager – Downloads
 
 Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
-**[ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
+**[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Alle Stable-Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
+[Testversion 0.2.3-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.3-beta.1/ChromeProfileManager.exe)
+
+[Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
 ## Starten
 
-1. `ChromeProfileManager.exe` in einem eigenen, beschreibbaren Ordner speichern.
-2. Die EXE starten und das eigene Chrome-Verzeichnis einrichten.
-3. Persönliche Einstellungen und Browserprofile werden nicht mitgeliefert. Die Manager-Einstellungen liegen unter `%LOCALAPPDATA%\ChromeProfileManager`.
+1. Die gewünschte EXE in einem eigenen, beschreibbaren Ordner speichern. Stable und Test in getrennten Ordnern ablegen.
+2. Die EXE starten und das eigene Chrome-Verzeichnis einrichten. Die Testversion verwendet eine getrennte Testumgebung mit eigenen Browserprofilen.
+3. Persönliche Einstellungen und Browserprofile werden nicht mitgeliefert. Stable-Einstellungen liegen unter `%LOCALAPPDATA%\ChromeProfileManager`, Testdaten unter `%LOCALAPPDATA%\ChromeProfileManager.Test`.
 
 ## Updates
 
-Ab Stable 0.2.2 sind dieses öffentliche Repository und der öffentliche Update-Prüfschlüssel bereits eingerichtet. Ein GitHub-Konto ist zum Herunterladen und für die Updateprüfung nicht erforderlich.
+Ab 0.2.3 sind dieses öffentliche Repository unter dem GitHub-Konto **mcdegi** und der öffentliche Update-Prüfschlüssel in Stable und Test fest verankert. Die Quelle lässt sich im Programm und über die Einstellungsdatei nicht ändern. Ein GitHub-Konto ist zum Herunterladen und für die Updateprüfung nicht erforderlich. Zugangsdaten sind nicht in der EXE enthalten.
 
-Der Manager prüft bei geöffneter Anwendung höchstens einmal täglich automatisch. Unter **Einstellungen → Anwendung → Version und Updates** lässt sich jederzeit manuell prüfen. Eine neue Version erscheint als Update-Hinweis. **Update herunterladen** lädt und prüft das Paket; **Installieren und neu starten** führt nach Bestätigung den Austausch aus. Dabei bleibt eine Sicherung der bisherigen EXE erhalten.
+Stable erhält ausschließlich normale Releases. Test erhält ausschließlich Beta-Vorabversionen. Betas ersetzen nicht den aktuellen Stable-Download. Der Quellcode wird separat privat verwaltet.
 
-Für jede neue Version werden eine EXE, ein ZIP, SHA256-Prüfsummen und signierte Update-Metadaten veröffentlicht. Die App prüft vor der Installation die Signatur, den Stable-Kanal, die Version sowie Paket- und EXE-Prüfsummen. Änderungen am Quellcode allein lösen kein Update aus; dafür muss ein neuer vollständiger Stable-Release veröffentlicht sein.
+Der Manager prüft bei geöffneter Anwendung einmal täglich automatisch, sofern der entsprechende Schalter aktiviert ist. Unter **Einstellungen → Anwendung → Version und Updates** lässt sich jederzeit manuell prüfen. Eine neue Version erscheint als Update-Hinweis. **Update herunterladen** lädt und prüft das Paket; **Installieren und neu starten** führt nach Bestätigung den Austausch aus. Dabei bleibt eine Sicherung der bisherigen EXE erhalten.
 
-Versionen bis einschließlich 0.2.1 einmal durch die aktuelle EXE ersetzen oder die Updatequelle mit dem öffentlichen Schlüssel manuell einrichten. Danach laufen weitere Updates direkt im Programm.
+Für jede neue Version werden eine EXE, ein ZIP, SHA256-Prüfsummen und signierte Update-Metadaten veröffentlicht. Die App prüft vor der Installation die Signatur, den Kanal, die Version sowie Paket- und EXE-Prüfsummen. Änderungen am Quellcode allein lösen kein Update aus; dafür muss ein neuer vollständiger Release veröffentlicht sein.
 
-Dieses Repository enthält die öffentlichen Stable-Downloads. Quellcode und Testversionen werden getrennt verwaltet.
+Stable 0.2.2 kann über seine bereits eingerichtete Standardquelle aktualisiert werden. Ältere Versionen oder Testversionen ohne eingerichtete Quelle einmal durch die passende aktuelle EXE ersetzen. Alte manuell konfigurierte Quellen und Schlüssel werden ab 0.2.3 ignoriert; die Benutzervorgaben zur automatischen Prüfung bleiben erhalten.
