@@ -4,7 +4,7 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.5-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.5-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.6-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.6-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
@@ -22,7 +22,7 @@ Stable erhält ausschließlich normale Releases. Test erhält ausschließlich Be
 
 Ab 0.2.4 befindet sich unter **Einstellungen → Updates** direkt unter „DSHub“ alles zur Versionsanzeige, Updateprüfung und Installation. „Anwendung“ enthält diese Funktionen nicht mehr. Der Bereich „Testinstanz erstellen“ wird ausschließlich in der Testversion angezeigt.
 
-Bei aktivierter Automatik prüft der Manager **bei jedem Programmstart** und zusätzlich einmal täglich während der Laufzeit. Das gilt auch beim Start nur mit Sidebar oder minimiert. Eine hervorgehobene **1 rechts unten am Einstellungen-Zahnrad** zeigt ein angebotenes Update an. Ein Klick auf das markierte Zahnrad öffnet direkt den Updates-Tab. Die manuelle Prüfung ist dort jederzeit möglich.
+Bei aktivierter Automatik prüft der Manager **bei jedem Programmstart** und zusätzlich einmal täglich während der Laufzeit. Das gilt auch beim Start nur mit Sidebar oder minimiert. Eine hervorgehobene **1 rechts unten am Einstellungen-Zahnrad** zeigt ein angebotenes Update an. Ab 0.2.6 erscheint dieselbe blaue „1“ auch rechts im Updates-Tab. Beide Anzeigen erscheinen und verschwinden gemeinsam. Ein Klick auf das markierte Zahnrad öffnet direkt den Updates-Tab. Die manuelle Prüfung ist dort jederzeit möglich.
 
 Ab 0.2.5 erscheint die Bestätigung vor der Installation im dunklen App-Dialog mit abgerundeten Ecken und passenden Schaltflächen. **Installieren und neu starten** bestätigt den Wechsel; Abbrechen und Escape installieren nichts.
 
