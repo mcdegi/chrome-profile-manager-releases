@@ -4,11 +4,24 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.12-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.12-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.13-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.13-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.12: Herkunftsdörfer einzeln tauschen
+## Neu in 0.2.13: Planer-Stepper und gelbe Ankunftsabweichung
+
+Der Aktionsplaner zeigt Übersicht, Herkunft, Ziele, Zeiten und Berechnen als
+horizontalen Stepper mit nummerierten Kreisen und Verbindungslinien. Der aktuelle
+Schritt ist gefüllt und hervorgehoben. Alle Schritte bleiben direkt anwählbar;
+Zurück/Weiter sowie Links/Rechts und Pos1/Ende funktionieren weiterhin. Die Anzeige
+bleibt beim Scrollen im Formular sichtbar und in schmalen Ansichten horizontal
+erreichbar. Die Markierung zeigt die Position, nicht die Gültigkeit der Eingaben.
+
+Der Abweichungszusatz unter „Echte Ankunft“ ist jetzt gelb statt grün. Zeitstempel,
+Berechnung sowie grüne Versand- und Botstatussymbole bleiben unverändert.
+Keine automatischen Angriffe durch die Anzeige oder Navigation.
+
+## Seit 0.2.12: Herkunftsdörfer einzeln tauschen
 
 Der Tausch zweier geplanter DSHub-Befehle speichert beide Änderungen nacheinander
 einzeln. Erst nach bestätigendem Neuabruf der ersten Änderung wird die zweite
