@@ -4,11 +4,24 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.11-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.11-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.12-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.12-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.11: Kopier-Icons in der Befehlstabelle
+## Neu in 0.2.12: Herkunftsdörfer einzeln tauschen
+
+Der Tausch zweier geplanter DSHub-Befehle speichert beide Änderungen nacheinander
+einzeln. Erst nach bestätigendem Neuabruf der ersten Änderung wird die zweite
+gesendet. Status, Befehlsdaten und Abschickzeiten werden erneut geprüft; zuletzt
+müssen beide Änderungen bestätigt sein. So wird der fehlschlagende Batch-Pfad
+umgangen. Das Ersetzen durch ein unverplantes Dorf im rechten Tab bleibt unverändert.
+
+Der Ablauf ist nicht atomar: Bei unklarer Bestätigung zeigt der Dialog den
+bestätigten Fortschritt und fordert zum manuellen Tabellen-Neuabruf auf. Keine
+automatische Schreibwiederholung, kein Rücktausch und kein automatischer Versand.
+Mit synthetischen API-/WPF-Fixtures geprüft; keine Schreibtests an echten Befehlen.
+
+## Seit 0.2.11: Kopier-Icons in der Befehlstabelle
 
 Hinter Start-/Zielkoordinaten sowie geplanter Abschick-/Ankunftszeit stehen kleine
 Kopier-Icons ohne Hintergrund. Sie kopieren den vollständigen angezeigten Wert,
@@ -25,7 +38,8 @@ fehlgeschlagenen oder unbestätigten Herkunftstausch, einer Änderung oder Lösc
 weiter automatisch. Es handelt sich ausschließlich um lesende Abrufe: keine
 Schreibwiederholung und kein aus dem Countdown abgeleiteter Versandstatus.
 Weitere Änderungen bleiben bis zum erfolgreichen manuellen Tabellen-Neuabruf
-gesperrt. Ein separater HTTP-500-Speicherfehler wird dadurch nicht behoben.
+gesperrt. Der Statusabgleich behebt selbst keinen HTTP-500-Speicherfehler;
+ab 0.2.12 umgeht der Herkunftstausch dessen Batch-Pfad mit Einzeländerungen.
 
 ## Seit 0.2.9: Mindestmoral im Aktionsplaner
 
