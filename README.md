@@ -4,11 +4,17 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.17-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.17-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.18-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.18-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.17: Zweispaltige Truppen-Tooltips
+## Neu in 0.2.18: Truppenbestand als Rechnung
+
+Die Angriffsanzahl steht unter „Für diesen Train vorgesehen“ in einer eigenen
+Zeile. Plus und Minus kennzeichnen Rückläufer, Rekrutierung und Vorplanung.
+Der Summenstrich vor den Resttruppen endet am breitesten sichtbaren Bestand.
+
+## Seit 0.2.17: Zweispaltige Truppen-Tooltips
 
 Die dunkle Truppenaufstellung zeigt Bezeichnungen links und Truppen rechts.
 Alle Truppengruppen erhalten dieselben abgerundeten Hintergründe wie in der
