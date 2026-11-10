@@ -4,11 +4,27 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.13-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.13-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.17-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.17-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.13: Planer-Stepper und gelbe Ankunftsabweichung
+## Neu in 0.2.17: Zweispaltige Truppen-Tooltips
+
+Die dunkle Truppenaufstellung zeigt Bezeichnungen links und Truppen rechts.
+Alle Truppengruppen erhalten dieselben abgerundeten Hintergründe wie in der
+Befehlstabelle. Die Rückläufer-Zeile entfällt vollständig, wenn bis zur
+Abschickzeit alle bekannten Rückkehrmengen null sind. Unbekannte Mengen bleiben
+sichtbar. Lange Einheitenlisten können innerhalb ihrer Gruppe umbrechen.
+
+## Seit 0.2.16: Truppenbestand zur Abschickzeit
+
+Die Befehlsprüfung berücksichtigt eigenen Heimatbestand, rechtzeitige eigene
+Rückläufer aus allen Wellen und fertige Rekrutierung, abzüglich früherer offener
+Befehle aller Pläne. Bereits enthaltene Mengen und identische Rückkehrberichte
+mehrerer Bots werden nicht doppelt addiert. Teilproduktion ist als Schätzung
+markiert; fehlende oder widersprüchliche Daten bleiben unbekannt.
+
+## Seit 0.2.13: Planer-Stepper und gelbe Ankunftsabweichung
 
 Der Aktionsplaner zeigt Übersicht, Herkunft, Ziele, Zeiten und Berechnen als
 horizontalen Stepper mit nummerierten Kreisen und Verbindungslinien. Der aktuelle
