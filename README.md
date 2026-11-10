@@ -4,11 +4,19 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.19-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.19-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.20-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.20-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.19: Kürzere Rekrutierungszeile
+## Neu in 0.2.20: Truppen- und Rückkehr-Tooltips
+
+Die Angriffsanzahl steht neben der Truppengruppe. Auch bei einem einzelnen AG
+zeigt der Tooltip die vorgesehenen Truppen und den Trennstrich bis zum Rahmen.
+Die Ergebniszeile unterscheidet Angriff und Unterstützung. Im Rückkehr-Tooltip
+stehen Bezeichnung und gerundeter Zeitstempel nebeneinander, ohne Zusatzhinweis
+bei gültiger Rückkehrzeit.
+
+## Seit 0.2.19: Kürzere Rekrutierungszeile
 
 Im Befehls-Tooltip entfällt „(geschätzt)“ aus der Zeile „Rekrutierung bis zur
 Abschickzeit“. Die Mengenberechnung bleibt unverändert.
