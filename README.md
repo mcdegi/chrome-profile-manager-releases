@@ -4,11 +4,16 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.18-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.18-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.19-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.19-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.18: Truppenbestand als Rechnung
+## Neu in 0.2.19: Kürzere Rekrutierungszeile
+
+Im Befehls-Tooltip entfällt „(geschätzt)“ aus der Zeile „Rekrutierung bis zur
+Abschickzeit“. Die Mengenberechnung bleibt unverändert.
+
+## Seit 0.2.18: Truppenbestand als Rechnung
 
 Die Angriffsanzahl steht unter „Für diesen Train vorgesehen“ in einer eigenen
 Zeile. Plus und Minus kennzeichnen Rückläufer, Rekrutierung und Vorplanung.
