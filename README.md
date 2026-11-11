@@ -4,9 +4,13 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.28-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.28-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.29-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.29-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
+
+## Neu in 0.2.29: Kürzerer Truppen-Tooltip
+
+Die Zeile „Bestand zur Abschickzeit“ entfällt.
 
 ## Neu in 0.2.28: Schiebeschalter im WB-Import
 
