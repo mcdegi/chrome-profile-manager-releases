@@ -4,11 +4,17 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.21-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.21-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.22-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.22-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.21: Update-Symbol in der Profilnavigation
+## Neu in 0.2.22: Fehlbestandswarnung mit Truppenicons
+
+Die gelbe Warnung steht über dem Trennstrich. „benötigt:“, „verfügbar:“ und
+„noch erforderlich:“ zeigen die betroffenen Einheiten mit Icons und Mengen.
+Die letzte Bestandszeile heißt bei mehreren Angriffen „Verfügbare Truppen in diesem Train“ und passt auf eine Zeile.
+
+## Seit 0.2.21: Update-Symbol in der Profilnavigation
 
 Links neben „Minimieren“ öffnet ein Update-Symbol die Prüfung und Installation
 direkt in der Profilnavigation. Eine blaue „1“ zeigt ein verfügbares Update.
