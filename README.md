@@ -4,9 +4,13 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.24-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.24-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.25-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.25-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
+
+## Neu in 0.2.25: Bündige Truppenwarnung
+
+Warnsatz und Mengenangaben beginnen direkt unter der vorgesehenen Truppengruppe. Die drei Mengenangaben stehen gemeinsam in einer eigenen Zeile unter dem Warnsatz.
 
 ## Neu in 0.2.24: Einzeilige Truppenwarnung
 
