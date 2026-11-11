@@ -4,9 +4,13 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.25-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.25-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.26-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.26-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
+
+## Neu in 0.2.26: Truppenwarnung in normaler Schrift
+
+Die Warnung lautet „Nicht genügend Truppen im Dorf.“. Alle Warntexte und Mengen verwenden normale Schriftstärke. Nur „noch erforderlich:“ und seine Zahlen sind gelb.
 
 ## Neu in 0.2.25: Bündige Truppenwarnung
 
