@@ -4,11 +4,17 @@ Chrome Profile Manager für Windows x64 mit .NET Framework 4.8.
 
 **[Stable – ChromeProfileManager.exe herunterladen](https://github.com/mcdegi/chrome-profile-manager-releases/releases/latest/download/ChromeProfileManager.exe)**
 
-[Testversion 0.2.20-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.20-beta.1/ChromeProfileManager.exe)
+[Testversion 0.2.21-beta.1 – ChromeProfileManager.exe](https://github.com/mcdegi/chrome-profile-manager-releases/releases/download/v0.2.21-beta.1/ChromeProfileManager.exe)
 
 [Alle Releases, Änderungsbeschreibungen, ZIP-Dateien und Prüfsummen](https://github.com/mcdegi/chrome-profile-manager-releases/releases)
 
-## Neu in 0.2.20: Truppen- und Rückkehr-Tooltips
+## Neu in 0.2.21: Update-Symbol in der Profilnavigation
+
+Links neben „Minimieren“ öffnet ein Update-Symbol die Prüfung und Installation
+direkt in der Profilnavigation. Eine blaue „1“ zeigt ein verfügbares Update.
+Die Update-Seite in den Einstellungen bleibt ebenfalls erreichbar.
+
+## Seit 0.2.20: Truppen- und Rückkehr-Tooltips
 
 Die Angriffsanzahl steht neben der Truppengruppe. Auch bei einem einzelnen AG
 zeigt der Tooltip die vorgesehenen Truppen und den Trennstrich bis zum Rahmen.
